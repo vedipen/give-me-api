@@ -1,2 +1,3 @@
-# give-me-api
-A simple spi
+# README
+
+A simple API
