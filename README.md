@@ -1,9 +1,9 @@
 **API**
 ----
   Manages, shows, modifies, creates, deletes articles; returns json
-* **URL**
+* **URL (only api)**
 
- https://givemeapi.herokuapp.com/
+ http://givemeapi.vedipen.com/
  
 * **Method:**
   
@@ -24,8 +24,8 @@
    
 * **Data Params**
 
-https://givemeapi.herokuapp.com/articles/    
-https://givemeapi.herokuapp.com/articles/2   
+http://givemeapi.vedipen.com/articles/    
+http://givemeapi.vedipen.com/articles/2   
 etc.    
 
 * **Success Response:**
