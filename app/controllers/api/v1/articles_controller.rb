@@ -8,7 +8,11 @@ module Api
 
       def show
         article = Article.find(params[:id]);
-        render json: {status: 'SUCCESS', message: 'Loaded article', data: article}, status: :ok
+        if article.nil?
+          render json: { error: true, reason: "Article not in database" }, status: 404
+        else 
+          render json: {status: 'SUCCESS', message: 'Loaded article', data: article}, status: :ok
+        end
       end
 
       def create
